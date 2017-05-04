@@ -6,9 +6,9 @@
 Ransomware is a type of malicious software designed to block access to a computer system until a sum of money is paid.
 
 ### Summary
-This project aims to build a functional ransomware for educational purposes, written in C#. In short, it encrypts your user files silently using XOR-ISSAC, a strong encryption algorithm and drops a ransom note.
+This project aims to build a functional ransomware for educational purposes, written in C#. In short, it encrypts your user files silently using XOR-ISSAC a strong encryption algorithm, and then drops a ransom note.
 
 ### Testing
 To start create a folder on your Desktop named 'TEST' and put in any files you want destroyed.
-Compile and run the program using Visual Studio 2017 and make sure the target C# framework is version 4.6 (version 2.0 is also possible with some tweaking).
-The encryption algorithm uses streams, it should be able to handle files larger than 4GB.
+Compile and run the program using Visual Studio 2017 and make sure the target C# framework is version 4.6 (version 2.0 is also possible).
+The encryption algorithm uses streams, so it should be able to handle files larger than 4GB.

